@@ -3,7 +3,8 @@
 
 
 - 프로모션 코드의 종류로 닭가슴살(랭킹닭컴, 미트리), 단백질 보충제(마이프로틴, 더 프로틴 웍스)가 있음
-- 이 프로모션 코드들은 크리에이터마다 할인율이 다르기 때문에 한 곳에 모아놓으면 사용자가 비교하기 쉬울 것이라고 생각하였음)
+
+이 프로모션 코드들은 크리에이터마다 할인율이 다르기 때문에 한 곳에 모아놓으면 사용자가 비교하기 쉬울 것이라고 생각하였음)
 
 ## 🏠 사이트
 - https://healthcode-337114.du.r.appspot.com/
@@ -19,14 +20,23 @@
 - Front End : React JS
 - Back End : Ndoe JS, MongoDB, GCP(Google Cloud Platform)
 
+## 📚 프로젝트 제작 과정
+- https://blog.naver.com/pliuhb/222527419988
+
 ## 📑 기능 설명
 - MongoDB로 데이터 관리
 - Material-ui의 무료 template인 Paperbase 이용하여 전체적인 디자인 구성
 
-## 🛠️ 기능 명세서
-
-## 📚 프로젝트 제작 과정
-- https://blog.naver.com/pliuhb/222527419988
+## 🛠️ API
+- users
+회원가입
+POST api/users/register, (save)
+로그인
+POST api/users/login, (fineOne, comparePassword, generateToken, cookie)
+로그아웃
+GET api/users/logout, (findOneAndUpdate)
+이메일 중복 확인
+POST api/users/smaeEmailCheck, (findOne)
 
 ## 📝 참고자료
 - https://material-ui.com/store/items/paperbase/
