@@ -30,13 +30,13 @@
 ## 🛠️ API
 - users
 회원가입
-POST api/users/register, (save)
+- POST api/users/register, (save)
 로그인
-POST api/users/login, (fineOne, comparePassword, generateToken, cookie)
+- POST api/users/login, (fineOne, comparePassword, generateToken, cookie)
 로그아웃
-GET api/users/logout, (findOneAndUpdate)
+- GET api/users/logout, (findOneAndUpdate)
 이메일 중복 확인
-POST api/users/smaeEmailCheck, (findOne)
+- POST api/users/smaeEmailCheck, (findOne)
 
 ## 📝 참고자료
 - https://material-ui.com/store/items/paperbase/
