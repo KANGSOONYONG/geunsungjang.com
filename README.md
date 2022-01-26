@@ -65,9 +65,9 @@
     - POST api/users/smaeEmailCheck, (findOne)
 
 - youtubers
-  - 유튜버 목록
+  - 크리에이터 목록
     - GET api/youtubers, (find)
-  - 유튜버 생성
+  - 크리에이터 생성
     - POST api/youtubers/create, (save)
 
 - items
