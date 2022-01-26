@@ -21,8 +21,8 @@
 - https://blog.naver.com/pliuhb/222527419988
 
 ## 📑 기능 설명
-- MongoDB로 데이터 관리
-- Material-ui의 무료 template인 Paperbase 이용하여 전체적인 디자인 구성
+- MongoDB를 이용하여 데이터 관리
+- Material-ui의 무료 template인 Paperbase 이용하여 전체적인 디자인 구성 (반응형 웹 자동적용)
 
 ## 🛠️ DB & API
 - users
