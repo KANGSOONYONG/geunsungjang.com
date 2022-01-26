@@ -24,7 +24,36 @@
 - MongoDB로 데이터 관리
 - Material-ui의 무료 template인 Paperbase 이용하여 전체적인 디자인 구성
 
-## 🛠️ API
+## 🛠️ DB & API
+- users
+  - _id : MongoDB 고유 id 값
+  - name : 회원가입 시 입력했던 닉네임
+  - email : 회원가입 시 입력했던 이메일
+  - password : 회원가입 시 입력했던 비밀번호
+  - role : admin 계정 확인
+  - token : 로그인 시 주어지는 token 값
+
+- youtubers
+  - _id : MongoDB 고유 id 값
+  - youtuber : 크리에이터 채널 이름
+
+- items
+  - _id : MongoDB 고유 id 값
+  - youtuber: 크리에이터 채널 이름
+  - siteName : 프로모션 코드 사용처
+  - code : 프로모션 코드
+
+- sitenames
+  - _id : MongoDB 고유 id 값
+  - name : 사이트 이름
+  - link : 사이트 링크
+
+- comments
+  - _id : MongoDB 고유 id 값
+  - comment : 코멘트 내용
+  - number : 코멘트 작성 순서
+* * *
+
 - users
   - 회원가입
     - POST api/users/register, (save)
