@@ -56,7 +56,7 @@
 
 - sitenames
   - 사이트 목록
-    - GET api/sitenames, ()
+    - GET api/sitenames, (find)
 
 ## 📝 참고자료
 - https://material-ui.com/store/items/paperbase/
