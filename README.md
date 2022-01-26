@@ -29,34 +29,34 @@
 
 ## 🛠️ API
 - users
-회원가입
-- POST api/users/register, (save)
-로그인
-- POST api/users/login, (fineOne, comparePassword, generateToken, cookie)
-로그아웃
-- GET api/users/logout, (findOneAndUpdate)
-이메일 중복 확인
-- POST api/users/smaeEmailCheck, (findOne)
+  - 회원가입
+    - POST api/users/register, (save)
+  - 로그인
+    - POST api/users/login, (fineOne, comparePassword, generateToken, cookie)
+  - 로그아웃
+    - GET api/users/logout, (findOneAndUpdate)
+  - 이메일 중복 확인
+    - POST api/users/smaeEmailCheck, (findOne)
 
 - youtubers
-유튜버 목록
-- GET api/youtubers, (find)
-유튜버 생성
-- POST api/youtubers/create, (save)
+  - 유튜버 목록
+    - GET api/youtubers, (find)
+  - 유튜버 생성
+    - POST api/youtubers/create, (save)
 
 - items
-프로모션 코드 목록
-- GET api/items/youtuber/:youtuber, (find)
-프로모션 코드 생성
-- POST api/items/create, (save)
-프로모션 코드 수정
-- PUT api/items/:items_id, (updateOne)
-프로모션 코드 삭제
-- DELETE api/items/:items_id, (deleteOne)
+  - 프로모션 코드 목록
+    - GET api/items/youtuber/:youtuber, (find)
+  - 프로모션 코드 생성
+    - POST api/items/create, (save)
+  - 프로모션 코드 수정
+    - PUT api/items/:items_id, (updateOne)
+  - 프로모션 코드 삭제
+    - DELETE api/items/:items_id, (deleteOne)
 
 - sitenames
-사이트 목록
-- GET api/sitenames, ()
+  - 사이트 목록
+    - GET api/sitenames, ()
 
 ## 📝 참고자료
 - https://material-ui.com/store/items/paperbase/
