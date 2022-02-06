@@ -131,7 +131,7 @@ function Header(props) {
                     <ListItemText primary={item.siteName} />
                 </Grid>
                 <Grid item xs={12} sm={10}>
-                    <ListItemText primary={item.code} />
+                    <ListItemText sx={{ whiteSpace: "pre-wrap" }} primary={item.code} />
                 </Grid>
               </ListItem>}
           </List>
