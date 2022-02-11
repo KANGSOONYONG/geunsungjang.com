@@ -86,4 +86,14 @@
     - GET api/sitenames, (find)
 
 ## 📝 참고자료
-- https://material-ui.com/store/items/paperbase/
+- 초보자를 위한 React JS 강좌
+  - https://www.youtube.com/watch?v=05uFo_-SGXU
+- material-ui template
+  - https://material-ui.com/store/items/paperbase/
+- 회원가입 기능 구현
+  - https://velog.io/@leemember/%EB%A6%AC%EC%95%A1%ED%8A%B8-%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85-%EC%9C%A0%ED%9A%A8%EC%84%B1-%EA%B2%80%EC%82%AC
+- Mongo DB
+  - https://docs.mongodb.com/manual/reference/method/db.collection.update/#std-label-update-method-examples
+  - https://koonsland.tistory.com/89
+  - https://velopert.com/594
+  - https://www.zerocho.com/category/MongoDB/post/579e2821c097d015000404dc
