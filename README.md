@@ -16,7 +16,7 @@
 
 ## ⚙️ 기술 스택
 - Front End : React JS
-- Back End : Ndoe JS, MongoDB, GCP(Google Cloud Platform)
+- Back End : Node JS, MongoDB, GCP(Google Cloud Platform)
 
 ## 📚 프로젝트 제작 과정
 - https://blog.naver.com/pliuhb/222527419988
