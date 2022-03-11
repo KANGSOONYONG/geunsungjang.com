@@ -21,6 +21,17 @@
 ## 📚 프로젝트 제작 과정
 - https://blog.naver.com/pliuhb/222527419988
 
+- 프로젝트를 만들어보며 공부했던 내용, 해결했던 오류들을 블로그에 정리해두었습니다.
+    - Nodejs, MongoDB, PostMan) Put(patch) method_updateOne 메소드와 ObjectId를 이용하여 항목을 수정하는 방법 소개 : [https://blog.naver.com/pliuhb/222563143968](https://blog.naver.com/pliuhb/222563143968)
+    - React 프로젝트 회원 가입 기능 구현하기 (1) - 소개 : [https://blog.naver.com/pliuhb/222572111595](https://blog.naver.com/pliuhb/222572111595)
+    - Nodejs 서버와 React를 연결했을 때 라우터에서 생기는 오류 해결하기(
+    Unexpected token < in JSON at position 0) : [https://blog.naver.com/pliuhb/222571028659](https://blog.naver.com/pliuhb/222571028659)
+    - React-router-dom v6 관련 오류 정리 (useHistory, exact, Switch 등) : [https://blog.naver.com/pliuhb/222569152473](https://blog.naver.com/pliuhb/222569152473)
+    - 왜 React는 console.log가 두 번 찍힐까? (StrictMode, double-invoking) : [https://blog.naver.com/pliuhb/222519002043](https://blog.naver.com/pliuhb/222519002043)
+    - CSS-in-JS 라이브러리 : styled-components 소개와 간단한 사용법 : [https://blog.naver.com/pliuhb/222532009560](https://blog.naver.com/pliuhb/222532009560)
+    - CORS란 무엇일까? 오류 해결 방법은..? : 
+    [https://blog.naver.com/pliuhb/222572424424](https://blog.naver.com/pliuhb/222572424424)
+
 ## 📑 기능 설명
 - MongoDB를 이용하여 데이터 관리
 - Material-ui의 무료 template인 Paperbase 이용하여 전체적인 디자인 구성 (반응형 웹 자동적용)
