@@ -15,8 +15,8 @@
 - 2021.11 ~ 2022.01
 
 ## ⚙️ 기술 스택
-- Front End : React JS
-- Back End : Node JS, MongoDB, GCP(Google Cloud Platform)
+- Front End : React JS (+ Material-UI)
+- Back End : Node JS, Express, MongoDB, GCP(Google Cloud Platform)
 
 ## 📚 프로젝트 제작 과정
 - https://blog.naver.com/pliuhb/222527419988
